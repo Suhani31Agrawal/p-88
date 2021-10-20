@@ -148,12 +148,12 @@ export default class WelcomeScreen extends Component {
             }}
           />
           
-            {/*<TextInput
+            <TextInput
             style={styles.formTextInput}
             placeholder ={"Country currency code"}
             maxLength ={8}
             onChangeText={(text)=>{this.setState({ currencyCode: text }) }}
-            /> */}
+            /> 
                         
             {/*<TextInput
             style={styles.formTextInput}
